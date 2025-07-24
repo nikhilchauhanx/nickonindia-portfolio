@@ -40,6 +40,13 @@ export default function Portfolio() {
         <header className="mb-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-2">Nikhil Chauhan <span className="text-indigo-600">aka Nickon India</span></h1>
           <p className="text-lg md:text-xl mb-6">Full Stack Developer · Digital Creator · YouTuber · Streamer</p>
+          <a
+            href="/Nikhil-Chauhan-Resume.pdf"
+            download="Nikhil-Chauhan-Resume.pdf"
+            className="inline-block bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 transition-colors duration-300 mb-6 shadow-lg"
+          >
+            Resume
+          </a>
           <p className="mb-6 text-sm uppercase tracking-wide text-gray-500">Global Creator from India · Based in Noida, UP</p>
           <div className="flex flex-wrap gap-5 mb-6 text-indigo-600 text-3xl">
             {socialLinks.map((link) => {
