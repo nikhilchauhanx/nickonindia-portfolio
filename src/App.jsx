@@ -115,6 +115,13 @@ export default function Portfolio() {
         </Section>
 
       </section>
+
+      <footer className="text-center py-6 mt-12 border-t border-gray-200">
+        <p className="text-sm text-gray-500">
+          © 2025 Nikhil Chauhan (nickonindia). All Rights Reserved.
+        </p>
+      </footer>
+
     </main>
   );
 }
