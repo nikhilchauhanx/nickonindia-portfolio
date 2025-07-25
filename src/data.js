@@ -1,8 +1,9 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaEnvelope, FaPhone,FaTwitter } from "react-icons/fa";
 
 export const socialLinks = [
   { name: "GitHub", href: "https://github.com/nikhilchauhanx", icon: FaGithub },
   { name: "LinkedIn", href: "https://linkedin.com/in/nickonindia", icon: FaLinkedin },
+  { name: "X", url: "https://x.com/nickonindia", icon: FaTwitter },
   { name: "Instagram", href: "https://instagram.com/nickonindia", icon: FaInstagram },
   { name: "YouTube", href: "https://www.youtube.com/@nickonindia", icon: FaYoutube },
   { name: "Email", href: "mailto:nikhilchauhan0618@gmail.com", icon: FaEnvelope },
