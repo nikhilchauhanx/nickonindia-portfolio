@@ -17,13 +17,32 @@ export const socialLinks = [
 
 export const professionalSummary = "Full Stack Developer skilled in React.js, Node.js, and MongoDB with a solid foundation in JavaScript and web architecture. Transitioned from test automation to development. Delivered 5+ real-world projects and solved 100+ DSA problems. Passionate about performance, clean code, and scalable systems.";
 
+// --- THIS ENTIRE OBJECT HAS BEEN MODIFIED ---
 export const technicalSkills = {
-  "Languages": ["JavaScript", "TypeScript (basic)", "HTML", "CSS"],
-  "Frameworks & Libraries": ["React.js", "Node.js", "Express.js", "Next.js"],
-  "Databases": ["MongoDB", "PostgreSQL", "MySQL"],
-  "Tools & Platforms": ["Git", "GitHub", "Postman", "Docker", "Vercel", "Netlify"],
-  "Core Concepts": ["REST APIs", "JWT Auth", "MVC Architecture", "CRUD Operations", "Async/Await"],
-  "Deployment": ["GitHub Actions", "Railway", "Heroku"],
+  "Frontend Development": [
+    "JavaScript (ESNext), TypeScript, HTML5, CSS3",
+    "React.js, Next.js (14+)",
+    "State Management (Redux Toolkit, Zustand)",
+    "Styling (Tailwind CSS, Styled-Components)",
+  ],
+  "Backend Development": [
+    "Node.js (LTS), Express.js",
+    "MongoDB (with Mongoose), PostgreSQL, MySQL",
+    "RESTful APIs, GraphQL (Basic)",
+    "ORMs (Mongoose, Prisma)",
+  ],
+  "Developer Tools & Platforms": [
+    "Git, GitHub (Gitflow Workflow)",
+    "Docker, Docker Compose, Containerization",
+    "CI/CD with GitHub Actions",
+    "Vercel, Netlify, Railway, Postman",
+  ],
+  "Core Concepts & Paradigms": [
+    "MVC Architecture, Microservices (Familiarity)",
+    "Authentication (JWT, OAuth 2.0)",
+    "Web Security Fundamentals (CORS, Hashing)",
+    "OOP & Functional Programming Concepts",
+  ],
 };
 
 export const projects = [
