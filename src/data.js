@@ -1,14 +1,18 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaEnvelope, FaPhone, FaTwitch, FaMedium, } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 export const socialLinks = [
   { name: "GitHub", href: "https://github.com/nikhilchauhanx", icon: FaGithub },
   { name: "LinkedIn", href: "https://linkedin.com/in/nickonindia", icon: FaLinkedin },
   { name: "X", href: "https://x.com/nickonindia", icon: FaXTwitter },
+  { name: "LeetCode", href: "https://leetcode.com/u/nickonindia/", icon: SiLeetcode, },
   { name: "Instagram", href: "https://instagram.com/nickonindia", icon: FaInstagram },
   { name: "YouTube", href: "https://www.youtube.com/@nickonindia", icon: FaYoutube },
   { name: "Email", href: "mailto:nikhilchauhan0618@gmail.com", icon: FaEnvelope },
   { name: "Phone", href: "tel:+917290813007", icon: FaPhone },
+  { name: "Twitch", href: "https://www.twitch.tv/nickonindia", icon: FaTwitch, },
+  { name: "Medium", href: "https://medium.com/@nickonindia", icon: FaMedium, },
 ];
 
 export const professionalSummary = "Full Stack Developer skilled in React.js, Node.js, and MongoDB with a solid foundation in JavaScript and web architecture. Transitioned from test automation to development. Delivered 5+ real-world projects and solved 100+ DSA problems. Passionate about performance, clean code, and scalable systems.";
