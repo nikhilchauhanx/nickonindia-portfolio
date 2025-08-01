@@ -50,7 +50,7 @@ export const projects = [
     title: "Yoga Teacher Platform",
     stack: "MERN Stack (MongoDB, Express, React, Node.js)",
     description: "A full-featured booking system connecting students with yoga instructors, featuring user authentication, role-based dashboards, and a verification system for teachers.",
-    liveUrl: "#", // Add live link here
+    liveUrl: "https://xenzy-marketplace-no9dxqhmr-nickonindia1.vercel.app/", 
     repoUrl: "#", // Add repo link here
   },
   {
