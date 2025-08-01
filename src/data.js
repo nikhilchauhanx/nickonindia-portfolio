@@ -47,19 +47,21 @@ export const technicalSkills = {
 
 export const projects = [
   {
-    title: "Yoga Teacher Platform",
-    stack: "MERN Stack (MongoDB, Express, React, Node.js)",
-    description: "A full-featured booking system connecting students with yoga instructors, featuring user authentication, role-based dashboards, and a verification system for teachers.",
-    liveUrl: "https://xenzy-marketplace-no9dxqhmr-nickonindia1.vercel.app/", 
-    repoUrl: "#", // Add repo link here
-  },
-  {
     title: "Xenzy Thrift Store",
     stack: "Next.js, MongoDB, Tailwind CSS",
     description: "An e-commerce platform with a dedicated admin panel for product management, secure user login, and cloud-based image uploads.",
+    liveUrl: "https://xenzy-marketplace-no9dxqhmr-nickonindia1.vercel.app/",
+    repoUrl: "#", // Add repo link here
+  },
+
+  {
+    title: "Yoga Teacher Platform",
+    stack: "MERN Stack (MongoDB, Express, React, Node.js)",
+    description: "A full-featured booking system connecting students with yoga instructors, featuring user authentication, role-based dashboards, and a verification system for teachers.",
     liveUrl: "#", // Add live link here
     repoUrl: "#", // Add repo link here
   },
+
   {
     title: "Real-Time Chat App",
     stack: "React, Node.js, Socket.io, JWT",
